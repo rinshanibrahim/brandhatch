@@ -345,20 +345,30 @@ p {
     display: flex;
   }
   #about-img-1{
-    width: 75%;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     padding: 0px 15px 0px 0px;
   }
   #about-img-2{
-    width: 50%;
+    width: 75%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0px 15px 0px 0px;
+    margin-left: 35px;
+  }
+  #about-img-3{
+    width: 75%;
     height: 300px;
     object-fit: cover;
     padding: 0px 15px 0px 0px;
 
   }
   .third-img{
-    display: flex;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
   }
   .hero-third-hedings{
     width: 30%;

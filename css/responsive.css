@@ -91,11 +91,18 @@
       top: 300px;
     }
     .hero-fourth .wrapper {
-    }
-    .hero-fourth .wrapper {
       display: grid;
       align-items: center;
       grid-template-columns: repeat(2, 1fr);
     }
   
+  }
+  @media screen and (max-width:768px) {
+    .hero-second .wrapper{
+      display: block;
+    }
+    .hero-second .wrapper img{
+      max-width: 100%;
+      max-height: 310px;
+    }
   }
